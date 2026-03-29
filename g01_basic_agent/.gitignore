@@ -1,0 +1,9 @@
+# Ignore all .env files anywhere in the repository
+.env
+# Or use the double asterisk for more explicit recursion (same effect as above)
+**/.env
+**/Readme.md
+
+# Ignore all dot-prefixed folders anywhere in the repository
+# This pattern matches directories starting with a dot in any path
+.*/
